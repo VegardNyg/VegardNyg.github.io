@@ -1,9 +1,81 @@
+<!DOCTYPE html>
 <html>
- 
-<body>
-  <h1>Vegard Nygård</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body> 
- 
+    <head>
+        <title>HTML Table Cheat Sheet</title>
+        <link href="resources/css/index.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>HTML Table Cheat Sheet</h1>
+        </header>
+        <article id="tags">
+            <h2>HTML Table Tags</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                    
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><p class="code">&lt;table&gt;</p></td>
+                        <td>Table tag</td>
+                        <td class="description">The enclosing tag of an entire table, and it's child elements</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;thead&gt;</td>
+                        <td>Table head</td>
+                        <td class="description">Contains the heading row of the table's columns</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tbody&gt;</td>
+                        <td>Table body</td>
+                        <td class="description">The element containing all of the information that is not headers in a table</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tr&gt;</td>
+                        <td>Table row</td>
+                        <td class="description">Produces one row in the table, contains one or more td(table data) elements </td>
+                    </tr>
+                    <tr>
+                        <td>&lt;td&gt;</td>
+                        <td>Table data</td>
+                        <td class="description">Is one square in the table, every square containing data is a td element</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tfoot&gt;</td>
+                        <td>Table foot</td>
+                        <td class="description">Contains the footer row of the table(bottom row), often a total of all the values in the column</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        <article id="attributes">
+            <h2>HTML Table Attributes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Attribute</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>colspan="integer"</td>
+                        <td>Column span</td>
+                        <td class="description">Makes table data take up the amount of columns of the integer you inputted</td>
+                    </tr>
+                    <tr>
+                        <td>rowspan="integer"</td>
+                        <td>Row span</td>
+                        <td class="description">Makes table data take up the amount of rows of the integer you inputted</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+    </body>
 </html>
